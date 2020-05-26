@@ -1,0 +1,146 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.container{
+    background-color: rgb(190, 209, 226);
+
+}
+.main-container{
+  background-color: white;
+}
+@media screen and (min-width: 700px){
+  .main-container{
+    margin: auto 150px;
+  }
+}
+.header-container{
+  margin:20px;
+  display: flex;
+  justify-content: space-between;
+}
+li{
+  margin:0 20px;
+}
+.right-container{
+    list-style: none;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+@media screen and (min-width: 700px){
+  .right-container{
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.wpexplorer-demo{
+    border:5px solid black;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    margin: 20px;
+    text-align: center;
+    padding: 20px;
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
+.image-container{
+    margin: auto 20px;
+}
+.quality-code,.responsive,.Portfolio,.free-gpl{
+    text-align: left;
+    margin: 10px 0;
+}
+@media screen and (min-width: 700px){
+  .quality-responsive,.portfolio-gpl{
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+h3{
+  text-transform: uppercase;
+}
+.recent-work{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.right-line, .left-line{
+  width: 35%;
+  text-align: center;
+  align-items: center;
+}
+hr{
+  border: 1px solid black;
+  display: block;
+  margin-top: 8px;
+}
+.image-container-two{
+  border: 2px solid;
+  margin:auto 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+img{
+  height:auto;
+  max-width: 100%;
+  margin: 20px 0 0 0; 
+  border: 2px solid; 
+  flex:1;
+
+}
+
+ @media screen and (min-width: 700px){
+  .left-img{
+    margin-right: 10px;
+  }
+} 
+.footer{
+  margin: 20px;
+  background-color:black; 
+}
+.adapt,.description{
+  color:white;
+  
+}
+
+.description-two{
+  list-style: none;
+  color:white;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.column{
+  background-color: rgb(75, 209, 209);
+  border:3px solid rgb(9, 16, 119);
+  margin:10px;
+  padding:7px 15px;
+  text-align: center;
+
+}
+@media screen and (min-width: 700px){
+  .description-two{
+    display: flex;
+    justify-content: flex-start;
+    
+  }
+}
+
+.recent-posts{
+  color:white;
+}
+.recent-header{
+  text-transform: uppercase;
+  margin:20px auto;
+}
+h4{
+  line-height: 2em;
+
+}
